@@ -18,7 +18,7 @@ typedef struct stack_s
 } stack_t;
 
 /* Function prototypes */
-void push(int value);
-void pall(void);
+void push(stack_t **head, unsigned int line_number);
+void pall(stack_t **head, unsigned int line_number);
 
 #endif /* MONTY_H */
