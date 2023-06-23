@@ -18,5 +18,6 @@ typedef struct stack_s
 /* Function prototypes */
 void push(stack_t **head, unsigned int line_number);
 void pall(stack_t **head, unsigned int line_number);
+void pint(stack_t **head, unsigned int counter);
 
 #endif /* MONTY_H */
